@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
  s.source = { :git => 'https://github.com/Akku11/Pods_work.git', :tag => s.version.to_s }
  s.swift_versions = ['5.0']
  s.source_files = 'CoffeeFramework/**/*.{swift,h,m}'
- s.framework = 'XCTest'
 end
