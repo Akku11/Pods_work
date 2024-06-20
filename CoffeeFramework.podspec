@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'CoffeeFramework'
- s.version = '1.0.0'
+ s.version = '1.0.1'
  s.summary = 'My CoffeeFramework Framework.'
  s.description = 'CoffeeFramework Framework used to return names.'
  s.license = { :type => 'MIT', :file => 'LICENSE' }
