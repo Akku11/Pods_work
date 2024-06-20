@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		82F973212C240971002B6C55 /* CoffeeFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82F973202C240971002B6C55 /* CoffeeFramework.docc */; };
 		82F973272C240971002B6C55 /* CoffeeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F9731C2C240971002B6C55 /* CoffeeFramework.framework */; };
-		82F9732C2C240971002B6C55 /* CoffeeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9732B2C240971002B6C55 /* CoffeeFrameworkTests.swift */; };
 		82F9732D2C240971002B6C55 /* CoffeeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F9731F2C240971002B6C55 /* CoffeeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F973372C24098F002B6C55 /* CoffeeTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F973362C24098F002B6C55 /* CoffeeTeams.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		82F9731F2C240971002B6C55 /* CoffeeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeFramework.h; sourceTree = "<group>"; };
 		82F973202C240971002B6C55 /* CoffeeFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CoffeeFramework.docc; sourceTree = "<group>"; };
 		82F973262C240971002B6C55 /* CoffeeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82F9732B2C240971002B6C55 /* CoffeeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFrameworkTests.swift; sourceTree = "<group>"; };
 		82F973362C24098F002B6C55 /* CoffeeTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTeams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				82F9731E2C240971002B6C55 /* CoffeeFramework */,
-				82F9732A2C240971002B6C55 /* CoffeeFrameworkTests */,
 				82F9731D2C240971002B6C55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				82F973362C24098F002B6C55 /* CoffeeTeams.swift */,
 			);
 			path = CoffeeFramework;
-			sourceTree = "<group>";
-		};
-		82F9732A2C240971002B6C55 /* CoffeeFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				82F9732B2C240971002B6C55 /* CoffeeFrameworkTests.swift */,
-			);
-			path = CoffeeFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F9732C2C240971002B6C55 /* CoffeeFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
